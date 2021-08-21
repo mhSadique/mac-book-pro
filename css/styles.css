@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-roboto);
+}
+
+html {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 3rem auto 1.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.image img {
+  width: 85%;
+}
+
+.heading {
+  font-size: 3.7rem;
+  line-height: 4.5rem;
+}
+
+.info p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.config-heading {
+    font-size: 1.6rem;
+    margin-bottom: .7rem;
+}
+
+.config-info{
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    margin-right: 1.3rem;
+    background-color: #fff;
+    border: 1px solid gray;
+    border-radius: .4rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    cursor: pointer;
+}
+
+.info-container {
+    width: 50%;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.price-info {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+hr {
+    height: 0;
+    border-bottom: 0px solid;
+    margin-bottom: .5rem;
+}
+
+hr.total {
+    height: 0;
+    border-bottom: 1px solid black;
+}
+
+label {
+    font-size: 1.6rem;
+}
+div.promo-input {
+    width: 50%;
+}
+
+input[type="text"]{
+    padding: 1rem;
+    width: 60%;
+    border: .1rem solid gray;
+    border-radius: .4rem;
+}
+
+input[type="button"]{
+    padding: 1rem 2rem;
+    width: 30%;
+    background-color: rgb(218, 79, 79);
+    color: #fff;
+    font-size: 1.4rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    outline: 0;
+}
+
+hr.below-main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.alert {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: orangered;
+    background-color: rgb(250, 187, 187);
+}
+
+.success {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    color: rgb(0, 255, 0);
+    background-color: rgba(107, 100, 100, 0.767);
+}
